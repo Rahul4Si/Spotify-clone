@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: rgb(74, 233, 74);
 }
 
 *{
@@ -11,6 +11,27 @@ body{
 
 nav{
     font-family: 'Ubuntu', sans-serif;
+   position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    margin-bottom: 10px;
+}
+.nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.nav-first img{
+    height: 45px;
+    padding-right: 10px;
 }
 
 nav ul{
@@ -25,7 +46,9 @@ nav ul{
 
 nav ul li{
     padding: 0 12px;
+    cursor: pointer;
 }
+
 .brand img{
     width: 44px;
     padding: 0 8px;
