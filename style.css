@@ -15,7 +15,6 @@ nav{
     top: 0;
     left: 0;
     right: 0; 
-    margin-bottom: 10px;
 }
 .nav{
     background-color: black;
@@ -73,6 +72,7 @@ nav ul li{
    padding: 34px;
    background-image: url('party.jpg');
    background-size: cover;
+   margin-top: 85px;
 }
 
 
